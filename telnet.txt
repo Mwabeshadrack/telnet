@@ -1,4 +1,8 @@
-telnet 10.129.151.113 23    
-Trying 10.129.151.113...
-Connected to 10.129.151.113.
-Escape character is '^]'.
+nmap -sV -sC 10.129.151.113               
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-14 04:09 EAT
+Nmap scan report for 10.129.151.113
+Host is up (0.24s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet  Linux telnetd
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel

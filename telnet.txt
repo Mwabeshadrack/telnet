@@ -1,0 +1,4 @@
+telnet 10.129.151.113 23    
+Trying 10.129.151.113...
+Connected to 10.129.151.113.
+Escape character is '^]'.
